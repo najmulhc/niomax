@@ -2,7 +2,7 @@
 
 const EyebrewHeading = ({ children }) => {
   return (
-    <div className="flex justify-start items-center gap-3">
+    <div className="flex justify-start items-center gap-3 mb-4">
       <div className="w-[10px] h-[10px] bg-red"></div>
       <h4 className="font-robot font-[700] md:text-xl text-md text-red">
         {children}

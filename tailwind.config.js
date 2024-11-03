@@ -15,6 +15,7 @@ export default {
         yellow: "#FEBF00",
         red: "#BD1F17",
         "btn-text": "#0A1425",
+        "bg-baige": "#fbf7f2",
       },
     },
   },
