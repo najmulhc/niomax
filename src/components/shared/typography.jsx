@@ -10,5 +10,5 @@ export const H2 = ({ children, className }) => {
 };
 
 export const P = ({ children, className }) => {
-  return <p className={`font-roboto font-light  ${className}`}>{children}</p>;
+  return <p className={`font-roboto font-light text-lg leading-6 ${className}`}>{children}</p>;
 };

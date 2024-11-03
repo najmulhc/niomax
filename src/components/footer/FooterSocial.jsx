@@ -22,7 +22,7 @@ const FooterSocial = () => {
   return (
     <div className="flex justify-center items-center gap-4 my-4 md:mt-16">
       {links.map((link) => (
-        <a className="text-white p-4 border border-white rounded-full" key={link.href} href={link.href}>
+        <a className="text-white p-4 border border-white rounded-full" target="_blank" key={link.href} href={link.href}>
           {" "}
           <link.Icon />
         </a>

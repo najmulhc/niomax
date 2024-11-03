@@ -10,6 +10,8 @@ export default {
       backgroundImage: {
         gradient:
           "linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%)",
+        "text-gradient":
+          "linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%)",
       },
       colors: {
         yellow: "#FEBF00",
