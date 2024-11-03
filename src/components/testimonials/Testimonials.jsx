@@ -1,10 +1,11 @@
 
+import Container from "../shared/Container";
 import EyebrewHeading from "../shared/EyebrewHeading";
 
 const Testimonials = () => {
-  return <section>
+  return <Container id='testimonials'>
     <EyebrewHeading>Crispy, Every Bite Taste</EyebrewHeading>
-  </section>;
+  </Container>;
 };
 
 export default Testimonials;

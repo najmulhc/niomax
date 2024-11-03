@@ -1,10 +1,11 @@
+import Container from '../shared/Container'
 import EyebrewHeading from '../shared/EyebrewHeading'
 
 const BookingForm = () => {
   return (
-    <section>
+    <Container id="booking-form">
       <EyebrewHeading>Book Now</EyebrewHeading>
-    </section>
+    </Container>
   )
 }
 

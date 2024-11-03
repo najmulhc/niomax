@@ -1,9 +1,7 @@
-import React from 'react'
+import Container from "../shared/Container";
 
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+  return <Container>Footer</Container>;
+};
 
-export default Footer
+export default Footer;

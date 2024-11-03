@@ -1,9 +1,8 @@
-import React from 'react'
+ 
+import Container from "../shared/Container";
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
-}
+  return <Container id="about">About</Container>;
+};
 
-export default About
+export default About;
