@@ -1,8 +1,10 @@
-import React from 'react'
+import EyebrewHeading from '../shared/EyebrewHeading'
 
 const BookingForm = () => {
   return (
-    <div>BookingForm</div>
+    <section>
+      <EyebrewHeading>Book Now</EyebrewHeading>
+    </section>
   )
 }
 

@@ -1,8 +1,11 @@
-import React from 'react'
+
+import EyebrewHeading from '../shared/EyebrewHeading'
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <section>
+      <EyebrewHeading>Crispy, Every Bite Taste</EyebrewHeading>
+    </section>
   )
 }
 

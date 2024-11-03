@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 export const H2 = ({
-    children, color
+    children
 }) => {
-    return <h2 className="font-bebas uppercase">{children}</h2>
+    return <h2 className="font-bebas uppercase text-yellow">{children}</h2>
 }
 
-export const P = ({children, color}) => {
+export const P = ({children}) => {
     return <p className="font-roboto ">{children}</p>
 } 

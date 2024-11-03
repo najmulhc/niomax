@@ -1,7 +1,10 @@
-import React from "react";
+
+import EyebrewHeading from "../shared/EyebrewHeading";
 
 const Testimonials = () => {
-  return <div>Testimonials</div>;
+  return <section>
+    <EyebrewHeading>Crispy, Every Bite Taste</EyebrewHeading>
+  </section>;
 };
 
 export default Testimonials;
