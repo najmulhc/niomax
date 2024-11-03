@@ -1,8 +1,9 @@
 {
   "name": "niomax",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "author": "Najmul Huda Chowdhury Chayan",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

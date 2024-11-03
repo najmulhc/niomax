@@ -1,8 +1,16 @@
 import React from 'react'
+import { H2, P } from '../shared/typography'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section>
+      <H2> 
+        This is hte bebas
+      </H2>
+      <P>
+      You are using roboto, babe! 
+      </P>
+    </section>
   )
 }
 
