@@ -19,6 +19,9 @@ export default {
         "btn-text": "#0A1425",
         "bg-baige": "#fbf7f2",
       },
+      boxShadow: {
+        "custom-black": "0px 0px 13.64px 0px rgba(0, 0, 0, 0.1)",
+      },
     },
   },
   plugins: [],
