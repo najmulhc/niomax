@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import BoxIcon from "../../icons/BoxIcon";
 import { P } from "../shared/typography";
 import BadgeIcon from "../../icons/BadgeIcon";
@@ -10,11 +10,17 @@ const AboutServices = () => {
       Icon: BoxIcon,
       title: "fast delivery",
       description: "Within 30 minutes",
-    }, {
-        Icon: BadgeIcon, title: "absolute dining", description:"Best buffet resturant"
-    }, {
-        Icon: PickupIcon, title: "pickup delivery", description: "Grab your food order"
-    }
+    },
+    {
+      Icon: BadgeIcon,
+      title: "absolute dining",
+      description: "Best buffet resturant",
+    },
+    {
+      Icon: PickupIcon,
+      title: "pickup delivery",
+      description: "Grab your food order",
+    },
   ];
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">

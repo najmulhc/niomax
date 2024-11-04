@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+ 
 export const H2 = ({ children, className }) => {
   return (
     <h2
