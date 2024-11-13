@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Menu from "./components/menu/Menu";
 import './App.css'
+import Testimonials from "./components/testimonials/Testimonials";
 
 // this is the component to wrap everything in the page
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
       <About />
       <Menu />
       <BookingForm />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Footer />
     </>
   );
