@@ -1,6 +1,7 @@
-import React from "react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import testimonials from "./testimonials";
+import SingelTestimonial from "./SingelTestimonial";
 const TestimonialSlider = ({ sliderRef }) => {
   return (
     <Swiper
@@ -11,15 +12,11 @@ const TestimonialSlider = ({ sliderRef }) => {
       loop={true}
       modules={[Navigation, Autoplay]}
     >
-      <SwiperSlide className="w-full h-[100px] bg-red">
-        {" "}
-        <div className="flex ">
-
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="w-full h-[100px] bg-bg-baige">
-        <div className="w-full h-[100px] bg-red"></div>
-      </SwiperSlide>
+      {testimonials.map((testimonial) => (
+        <SwiperSlide key={testimonial.name} className="w-full h-[100px] mt-8">
+          <SingelTestimonial testimonial={testimonial} />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };
