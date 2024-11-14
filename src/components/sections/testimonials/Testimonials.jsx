@@ -4,11 +4,12 @@ import EyebrewHeading from "../../shared/EyebrewHeading";
 import { H2 } from "../../shared/typography";
 import SliderNav from "../../shared/SliderNav";
 import TestimonialSlider from "./TestimonialSlider";
+import TestimonialDecoration from "./TestimonialDecoration";
 
 const Testimonials = () => {
   const testimonialSliderRef = useRef(null);
   return (
-    <Container id="testimonials" className="bg-bg-baiged">
+    <Container id="testimonials" className="bg-bg-baiged" Decoration={TestimonialDecoration}> 
       <div className="flex justify-between items-end">
         <div>
           <EyebrewHeading>Crispy, Every Bite Taste</EyebrewHeading>
