@@ -6,6 +6,7 @@ import Button from "../../shared/Button";
 const Form = () => {
   const { control, handleSubmit } = useForm();
 
+  // it will log the input data to console
   const onSubmit = (data) => {
     console.log(data);
   };

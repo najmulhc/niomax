@@ -2,6 +2,8 @@
 import IncrementIcon from '../../../icons/input/IncrementIcon';
 import DecrementIcon from '../../../icons/input/DecrementIcon';
 
+
+// custom arrows for number increase and decrease
 const NumberChangerBtn = ({
     onChange, value
 }) => {

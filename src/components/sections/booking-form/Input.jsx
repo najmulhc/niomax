@@ -1,6 +1,8 @@
 import { Controller } from "react-hook-form"; 
 import NumberChangerBtn from "./NumberChangerBtn";
 
+
+// reusalbe input component for all input needs 
 const Input = ({ control, name, inputType = "text", ...props }) => {
   if (inputType === "textarea") {
     return (

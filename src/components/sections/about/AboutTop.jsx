@@ -7,6 +7,7 @@ import Button from "../../shared/Button";
 import PhoneIcon from '../../../icons/PhoneIcon'
 import aboutInfo from "../../../data/about-info-data";
 
+
 const AboutTop = () => {
   const [active, setActive] = useState("about");
   

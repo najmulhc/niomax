@@ -1,3 +1,4 @@
+// the button for toggling about sections state
 const AboutToggleBtn = ({ children, activeBar, value, setActiveBar }) => {
   return (
     <button

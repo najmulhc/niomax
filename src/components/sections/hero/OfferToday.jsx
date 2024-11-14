@@ -1,3 +1,4 @@
+// the circle of texts in the bottom of the hero image
 const OfferToday = () => {
   return (
     <div className="relative z-30  top-[21rem]">

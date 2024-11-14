@@ -1,6 +1,8 @@
 
 import { P } from '../../shared/typography';
 
+
+// reusable single testimonial for slider, we can not reuse the SingleSLide component of swiper
 const SingleTestimonialInfo = ({testimonial}
 ) => {
 
@@ -8,7 +10,7 @@ const SingleTestimonialInfo = ({testimonial}
   return (
     <div className="flex w-full h-full flex-col justify-between">
       <P className="text-[1.25rem] leading-[2.125rem]">{description}</P>
-      {/* the div for the bbottom part */}
+      {/* the div for the bbottom part of the testimonial */}
       <div className="mt-6">
         <div className="w-full flex justify-between items-end ">
           <div>
