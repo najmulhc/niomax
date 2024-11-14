@@ -7,7 +7,8 @@ export default {
         roboto: ["Roboto", "sans-serif"],
         bebas: ['"Bebas Neue"', "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
-        releway: ["Relyway", "sans-serif"],
+        releway: ["Raleway", "sans-serif"],
+        open : ["Open Sans" , 'sans-serif']
       },
       backgroundImage: {
         gradient:

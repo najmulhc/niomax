@@ -31,7 +31,11 @@ const Header = () => {
 
           <div className="md:flex justify-start items-center text-white text-[0.938rem] gap-10 font-montserrat hidden ">
             {pages.map((item) => (
-              <a href="#" className="hover:text-yellow" key={item}>
+              <a
+                href="#"
+                className="hover:text-yellow font-releway font-raleway text-sm font-medium leading-[17.61px] text-left decoration-none"
+                key={item}
+              >
                 {item}
               </a>
             ))}

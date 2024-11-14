@@ -27,7 +27,7 @@ const MarketExperience = () => {
           }}
         />
       </div>{" "}
-      <P className="font-[700] font-roboto">
+      <P className="font-[600] font-open text-[##181818]">
         Market <br /> Experiences
       </P>
     </div>

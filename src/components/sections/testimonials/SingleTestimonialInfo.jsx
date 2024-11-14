@@ -9,7 +9,7 @@ const SingleTestimonialInfo = ({testimonial}
     const {description, name, avatar, address } = testimonial;
   return (
     <div className="flex w-full h-full flex-col justify-between">
-      <P className="text-[1.25rem] leading-[2.125rem]">{description}</P>
+      <P className="md:text-[1.25rem]  text-[1.125rem] leading-[1.75rem] md:leading-[2.125rem]">{description}</P>
       {/* the div for the bbottom part of the testimonial */}
       <div className="mt-6">
         <div className="w-full flex justify-between items-end ">

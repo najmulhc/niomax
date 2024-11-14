@@ -1,7 +1,7 @@
-import ReactPlayer from "react-player";
-import { H2 } from "../../shared/typography";
+import ReactPlayer from "react-player"; 
 import FlowerIcon from "../../../icons/FlowerIcon";
 import SingleTestimonialInfo from "./SingleTestimonialInfo";
+import QouteIcon from "../../../icons/QouteIcon";
 
 // this is the rapper component of the slider
 const SingelTestimonial = ({ testimonial }) => {
@@ -10,7 +10,7 @@ const SingelTestimonial = ({ testimonial }) => {
     <div className="flex flex-col-reverse md:flex-row justify-between">
       <div className="w-full h-auto md:w-[34.688rem] md:h-[34.688rem] bg-yellow p-[1.625rem] md:p-[1.188rem] relative top-0 left-0">
         <div className="flex justify-between h-full items-start w-full gap-2">
-          <H2>&quot;</H2>
+          <QouteIcon /> 
           <SingleTestimonialInfo testimonial={testimonial} />
         </div>
         <FlowerIcon className="absolute z-20 bottom-0 left-0 md:bottom-6" />
