@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.svg";
+import HamburgerIcon from "../../icons/HamburgerIcon";
 import Button from "../shared/Button";
 
 const Header = () => {
@@ -19,6 +20,9 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
           <Button>Book a table</Button>
+        </div>
+        <div className="block md:hidden">
+          <HamburgerIcon />
         </div>
       </div>
     </header>
