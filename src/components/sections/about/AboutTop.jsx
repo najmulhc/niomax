@@ -5,29 +5,11 @@ import AboutToggleBtn from "./AboutToggle"
 import { H2, P } from "../../shared/typography" 
 import Button from "../../shared/Button";
 import PhoneIcon from '../../../icons/PhoneIcon'
+import aboutInfo from "../../../data/about-info-data";
 
 const AboutTop = () => {
   const [active, setActive] = useState("about");
-  const aboutInfo = [
-    {
-      value: "about",
-      title: "About",
-      topTitle: "Exceptional culinary experience and delicious food",
-      ctaText: "About us",
-    },
-    {
-      value: "experience",
-      title: "Experience",
-      topTitle: "Five years of professional culinary experience.",
-      ctaText: "View Certificate",
-    },
-    {
-      value: "contact",
-      title: "Contact",
-      topTitle: "Have a questions? or any booking for your next party?",
-      ctaText: "Contact us",
-    },
-  ];
+  
   const displayItem = aboutInfo.filter((item) => item.value == active)[0];
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-12 mb-8">
