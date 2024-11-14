@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import menu from "./menu-data";
-import { P } from "../shared/typography";
+import menu from "../../../data/menu-data"; 
 import { Autoplay, Navigation } from "swiper/modules"; 
+import { P } from "../../shared/typography";
 
 const MenuSlider = ({ sliderRef }) => {
   return (

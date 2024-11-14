@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import Input from "./Input";
-import Button from "../shared/Button";
+import Button from "../../shared/Button";
+ 
 
 const Form = () => {
   const { control, handleSubmit } = useForm();

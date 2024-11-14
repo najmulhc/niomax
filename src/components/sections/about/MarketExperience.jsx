@@ -1,6 +1,6 @@
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { P } from "../shared/typography";
+import { P } from "../../shared/typography";
 
 const MarketExperience = () => {
   return (
@@ -20,7 +20,7 @@ const MarketExperience = () => {
             },
             text: {
               fontWeight: 700,
-              fill: "#181818"
+              fill: "#181818",
             },
           }}
         />

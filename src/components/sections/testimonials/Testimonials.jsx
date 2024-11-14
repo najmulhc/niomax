@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import Container from "../shared/Container";
-import EyebrewHeading from "../shared/EyebrewHeading";
-import { H2 } from "../shared/typography";
-import SliderNav from "../menu/SliderNav";
+import Container from "../../shared/Container";
+import EyebrewHeading from "../../shared/EyebrewHeading";
+import { H2 } from "../../shared/typography";
+import SliderNav from "../../shared/SliderNav";
 import TestimonialSlider from "./TestimonialSlider";
 
 const Testimonials = () => {

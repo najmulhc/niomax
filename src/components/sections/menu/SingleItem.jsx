@@ -1,6 +1,7 @@
 
 import { SwiperSlide } from 'swiper/react';
-import { P } from '../shared/typography';
+import { P } from '../../shared/typography';
+ 
 
 const SingleItem = ({
     item

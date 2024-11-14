@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-start items-center gap-12">
           <img src={logo} alt="" />
 
-          <div className="flex justify-start items-center text-white gap-10 font-roboto">
+          <div className="md:flex justify-start items-center text-white gap-10 font-roboto hidden ">
             {pages.map((item) => (
               <a href="#" className="hover:text-yellow" key={item}>
                 {item}

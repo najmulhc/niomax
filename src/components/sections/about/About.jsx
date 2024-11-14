@@ -1,4 +1,4 @@
-import Container from "../shared/Container";
+import Container from "../../shared/Container";
 import AboutServices from "./AboutServices";
 import AboutTop from "./AboutTop";
 

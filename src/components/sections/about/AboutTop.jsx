@@ -1,10 +1,10 @@
 import { useState } from "react";
-import aboutImage from "../../assets/about.png";
-import AboutToggleBtn from "./AboutToggle";
-import { H2, P } from "../shared/typography";
-import Button from "../shared/Button";
-import PhoneIcon from "../../icons/PhoneIcon";
-import MarketExperience from "./MarketExperience";
+import aboutImage from '../../../assets/about.png'
+import MarketExperience from "./MarketExperience"
+import AboutToggleBtn from "./AboutToggle"
+import { H2, P } from "../../shared/typography" 
+import Button from "../../shared/Button";
+import PhoneIcon from '../../../icons/PhoneIcon'
 
 const AboutTop = () => {
   const [active, setActive] = useState("about");
@@ -32,7 +32,11 @@ const AboutTop = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-12 mb-8">
       <div className="w-full z-10 relative">
-        <img src={aboutImage} alt="" className="relative top-0 left-0 w-full h-auto z-10" />
+        <img
+          src={aboutImage}
+          alt=""
+          className="relative top-0 left-0 w-full h-auto z-10"
+        />
         <MarketExperience />
       </div>
       <div className="w-full">

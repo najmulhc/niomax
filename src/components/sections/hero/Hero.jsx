@@ -1,6 +1,6 @@
-import Container from "../shared/Container";
-import HeroImageSection from "./HeroImageSection";
+import Container from "../../shared/Container";
 import HeroTextSection from "./HeroTextSection";
+import HeroImageSection from "./HeroImageSection";
 
 const Hero = () => {
   return (

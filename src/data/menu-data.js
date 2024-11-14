@@ -1,7 +1,7 @@
-import burger from "../../assets/burger.png";
-import pizza from "../../assets/pizza.png";
-import fries from "../../assets/fries.png";
-import chicken from "../../assets/chicken.png";
+import burger from "../assets/burger.png";
+import pizza from "../assets/pizza.png";
+import fries from "../assets/fries.png";
+import chicken from "../assets/chicken.png";
 
 const menu = [
   {

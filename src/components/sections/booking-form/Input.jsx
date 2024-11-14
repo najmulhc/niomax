@@ -1,6 +1,5 @@
-import { Controller } from "react-hook-form";
-import IncrementIcon from "../../icons/input/IncrementIcon";
-import DecrementIcon from "../../icons/input/DecrementIcon";
+import { Controller } from "react-hook-form"; 
+import NumberChangerBtn from "./NumberChangerBtn";
 
 const Input = ({ control, name, inputType = "text", ...props }) => {
   if (inputType === "textarea") {
@@ -44,25 +43,7 @@ const Input = ({ control, name, inputType = "text", ...props }) => {
 
           {/* Show buttons only for number input type */}
           {inputType === "number" && (
-            <>
-              {/* Increment button */}
-              <button
-                type="button"
-                onClick={() => onChange(value + 1)}
-                className="absolute right-0 top-3 "
-              >
-                <IncrementIcon />
-              </button>
-
-              {/* Decrement button */}
-              <button
-                type="button"
-                onClick={() => onChange(value - 1)}
-                className="absolute right-0  top-7"
-              >
-                <DecrementIcon />
-              </button>
-            </>
+            <NumberChangerBtn onChange={onChange} value={value} />
           )}
         </div>
       )}

@@ -1,5 +1,7 @@
-import { P } from "../shared/typography";
-import Button from "../shared/Button";
+import Button from "../../shared/Button";
+import { P } from "../../shared/typography";
+
+ 
 const HeroTextSection = () => {
   return (
     <div className="relative top-0 left-0 w-full h-full bg-purple-600 "> 

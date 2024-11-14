@@ -1,6 +1,7 @@
-import Container from "../shared/Container";
-import EyebrewHeading from "../shared/EyebrewHeading";
-import { H2, P } from "../shared/typography";
+ 
+import Container from "../../shared/Container";
+import EyebrewHeading from "../../shared/EyebrewHeading";
+import { H2, P } from "../../shared/typography";
 import Form from "./Form";
  
 const BookingForm = () => {

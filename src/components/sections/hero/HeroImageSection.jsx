@@ -1,5 +1,5 @@
-import HeroImage from "../../assets/hero-min.jpg";
-import HeroTopVector from "../../assets/hero-top-vector.png";
+import HeroImage from "../../../assets/hero-min.jpg";
+import HeroTopVector from "../../../assets/hero-top-vector.png";
 
 const HeroImageSection = () => {
   return (

@@ -1,8 +1,10 @@
+  
  
-import BoxIcon from "../../icons/BoxIcon";
-import { P } from "../shared/typography";
-import BadgeIcon from "../../icons/BadgeIcon";
-import PickupIcon from "../../icons/PickupIcon";
+import BoxIcon from '../../../icons/BoxIcon';
+import BadgeIcon from '../../../icons/BadgeIcon'
+import PickupIcon from '../../../icons/PickupIcon' 
+import { P } from '../../shared/typography';
+
 
 const AboutServices = () => {
   const services = [
