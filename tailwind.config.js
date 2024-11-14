@@ -6,6 +6,8 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         bebas: ['"Bebas Neue"', "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        releway: ["Relyway", "sans-serif"],
       },
       backgroundImage: {
         gradient:

@@ -13,8 +13,8 @@ const Footer = () => {
       <FooterLinks />
 
       <FooterSocial />
-      <P className="text-center text-white">
-        © {year} <span className="text-yellow">Niomax</span> All rights
+      <P className="text-center text-white text-[1.313rem]">
+        © {year} All rights
         reserved.
       </P>
     </Container>

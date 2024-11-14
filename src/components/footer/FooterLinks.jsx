@@ -35,7 +35,12 @@ const FooterLinks = () => {
             {title}
           </h4>
           {texts.map((text) => (
-            <p key={text}>{text}</p>
+            <p
+              className="font-roboto text-md text-white font-[400] leading-[1.563rem]"
+              key={text}
+            >
+              {text}
+            </p>
           ))}
         </div>
       ))}
