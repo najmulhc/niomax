@@ -8,7 +8,7 @@ export default {
         bebas: ['"Bebas Neue"', "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         releway: ["Raleway", "sans-serif"],
-        open : ["Open Sans" , 'sans-serif']
+        open: ["Open Sans", "sans-serif"],
       },
       backgroundImage: {
         gradient:
@@ -24,6 +24,7 @@ export default {
       },
       boxShadow: {
         "custom-black": "0px 0px 13.64px 0px rgba(0, 0, 0, 0.1)",
+        "offer-shadow": "box-shadow: 0px 8px 9px 0px #00000040",
       },
     },
   },

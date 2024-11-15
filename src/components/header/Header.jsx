@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed z-40 ${
+      className={`fixed z-50 ${
         isScrolled ? "bg-red" : "bg-none"
       } w-full md:h-[6.75rem] h-[4.813rem] top-0 left-0 py-8 px-[1.875rem] `}
     >
