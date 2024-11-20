@@ -1,5 +1,4 @@
 
-import { SwiperSlide } from 'swiper/react';
 import { P } from '../../shared/typography';
  
 
@@ -7,13 +6,10 @@ const SingleItem = ({
     item
 }) => {
   return (
-    <SwiperSlide
-      className="w-full  bg-white rounded-sm p-4 min-h-[20rem] text-center flex "
-      key={item.name}
-    >
+    <>
       <div className="w-full bg-none  flex justify-center items-center">
         <img
-          className="max-w-full my-6 px-auto h-full  bg-none"
+          className="max-w-full my-6 px-auto h-[7.5rem]  bg-none"
           src={item.img}
           alt={item.name}
         />
@@ -23,7 +19,7 @@ const SingleItem = ({
         {item.name}
       </h4>
       <P className="text-btn-text font-roboto text-lg">{item.description}</P>
-    </SwiperSlide>
+    </>
   );
 }
 

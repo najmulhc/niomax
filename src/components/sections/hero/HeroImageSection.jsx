@@ -1,10 +1,10 @@
-import HeroImage from "../../../assets/hero-min.jpg"; 
-import OfferToday from "./OfferToday"; 
+import HeroImage from "../../../assets/hero-min.jpg";
+import OfferToday from "./OfferToday";
+
+// the image section of the hero 
 const HeroImageSection = () => {
   return (
     <div className="md:w-[751px]   overflow-visible relative top-0 right-0  md:z-20">
-     
- 
       <img
         src={HeroImage}
         alt="hero image "

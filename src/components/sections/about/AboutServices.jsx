@@ -1,4 +1,4 @@
-import services from "../../../data/about-services-data";
+import services from "../../../constants/about-services-data";
 import { P } from "../../shared/typography";
 
 const AboutServices = () => {

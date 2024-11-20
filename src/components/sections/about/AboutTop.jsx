@@ -1,16 +1,15 @@
 import { useState } from "react";
-import aboutImage from '../../../assets/about.png'
-import MarketExperience from "./MarketExperience"
-import AboutToggleBtn from "./AboutToggle"
-import { H2, P } from "../../shared/typography" 
+import aboutImage from "../../../assets/about.png";
+import MarketExperience from "./MarketExperience";
+import AboutToggleBtn from "./AboutToggle";
+import { H2, P } from "../../shared/typography";
 import Button from "../../shared/Button";
-import PhoneIcon from '../../../icons/PhoneIcon'
-import aboutInfo from "../../../data/about-info-data";
-
+import PhoneIcon from "../../../icons/PhoneIcon";
+import aboutInfo from "../../../constants/about-info-data";
 
 const AboutTop = () => {
   const [active, setActive] = useState("about");
-  
+
   const displayItem = aboutInfo.filter((item) => item.value == active)[0];
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-12 mb-8">

@@ -1,6 +1,6 @@
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import testimonials from "../../../data/testimonial-data";
+import testimonials from "../../../constants/testimonial-data";
 import SingelTestimonial from "./SingelTestimonial";
 const TestimonialSlider = ({ sliderRef }) => {
   return (

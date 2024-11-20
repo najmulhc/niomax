@@ -24,7 +24,11 @@ export default {
       },
       boxShadow: {
         "custom-black": "0px 0px 13.64px 0px rgba(0, 0, 0, 0.1)",
-        "offer-shadow": "box-shadow: 0px 8px 9px 0px #00000040",
+        "offer-shadow": "box-shadow: 0px 8px 9px 0px #000000",
+      },
+      screens: {
+        // Custom semi-medium breakpoint, adjust as needed
+        md: "1079px",
       },
     },
   },

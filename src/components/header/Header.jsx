@@ -25,15 +25,15 @@ const Header = () => {
         isScrolled ? "bg-red" : "bg-none"
       } w-full md:h-[6.75rem] h-[4.813rem] top-0 left-0 py-8 px-[1.875rem] `}
     >
-      <div className="md:w-[82.5rem] h-full flex justify-between items-center mx-auto">
+      <div className="md:max-w-[82.5rem] h-full flex justify-between items-center mx-auto">
         <div className="flex justify-start items-center gap-12">
           <img src={logo} alt="" />
 
-          <div className="md:flex justify-start items-center text-white text-[0.938rem] gap-10 font-montserrat hidden ">
+          <div className="md:flex justify-start items-center text-white  gap-10 font-montserrat hidden ">
             {pages.map((item) => (
               <a
                 href="#"
-                className="hover:text-yellow font-releway font-raleway text-sm font-medium leading-[17.61px] text-left decoration-none"
+                className="hover:text-yellow font-releway text-[15px] font-raleway text-sm font-medium leading-[17.61px] text-left decoration-none"
                 key={item}
               >
                 {item}
@@ -42,7 +42,7 @@ const Header = () => {
           </div>
         </div>
         <div className="hidden md:block">
-          <Button>Book a table</Button>
+          <Button className="px-[24px] py-[10px]">Book a table</Button>
         </div>
         <div className="block md:hidden">
           <HamburgerIcon />
